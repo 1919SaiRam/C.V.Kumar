@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  position: relative; /* Position the App container */
+}
+
+
+.App-logo {
+  height: 10vmin;
+  /* height: 40px; */
+  pointer-events: none;
+  margin: auto; /* Center the logo horizontally and vertically */
+  /* position: absolute;              Position the logo absolutely within the header */
+  /* top: 10px;              Adjust the top position */
+  /* right: 10px;               Adjust the right position */
+  /* height: 40px;              Set the height as needed */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end; /* Align items to the top-right corner */
+  position: absolute; /* Position the header absolutely within the App container */
+  top: 0;
+  right: 0;
+  padding: 20px; /* Add padding for spacing */
+}
+
+
+.box-container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+}
+
+.box {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  transform: perspective(1000px) rotateX(30deg) rotateY(30deg);
+  transition: transform 0.5s;
+}
+
+.box:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+}
+
+
+.App-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 10px; /* Add margin for spacing */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
