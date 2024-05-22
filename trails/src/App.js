@@ -1,15 +1,17 @@
 import React from 'react';
-import logo from './logo.svg'; // Import the logo image
+import logo from './logo.svg';
 import './App.css';
+import DefaultDateTimePickers from './DefaultDateTimePickers';
+import Positionwithtooltip from "./Positionwithtooltip";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div className="box-container">
-          <div className="box" >
-              <img src={logo} className="App-logo" alt="logo" />
-             </div>
+          <div className="box">
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
           <div className="box">
             <a
               className="App-link"
@@ -22,6 +24,23 @@ function App() {
           </div>
         </div>
       </header>
+
+      
+      <div className='makeit' >
+
+      <div>
+        <DefaultDateTimePickers 
+          datePickerProps={{}} 
+          timePickerProps={{}} 
+        />
+      </div>
+
+      <div>
+        <Positionwithtooltip />
+      </div>
+      </div>
+      
+           
     </div>
   );
 }
