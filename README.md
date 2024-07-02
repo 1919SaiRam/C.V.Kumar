@@ -4,6 +4,8 @@ https://getbootstrap.com/
 
 https://react.dev/
 
+https://www.memberstack.com/blog/react-context
+
 https://www.smashingmagazine.com/2009/07/the-definitive-guide-to-using-negative-margins/
 
 https://help.crio.do/support/solutions/articles/82000902220-fdt-fe-101-html-css-sprint-summary
