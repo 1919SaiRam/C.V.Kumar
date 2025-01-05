@@ -20,3 +20,19 @@ https://help.crio.do/support/solutions/articles/82000902298-fdt-mern-01-react-js
 
 https://help.crio.do/support/solutions/articles/82000907180-fdt-mern-2-and-3-sprint-summary
 
+"For Software Development: 
+
+http://in.indeed.com/   
+http://www.hackerearth.com/   
+http://angel.co/india   
+http://cutshort.io/    
+http://jobs.github.com/   
+http://www.turing.com/   
+http://www.instahyre.com/   
+http://stackoverflow.com/jobs 
+https://peerlist.io/jobs/role 
+https://cuvette.tech/ 
+  
+
+
+ 
